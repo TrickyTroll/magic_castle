@@ -808,7 +808,7 @@ Instead of step 5, export only `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ZONE_API_TOKE
 
 ### 6.2 Google Cloud
 
-**requirement**: Install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/downloads-interactive)
+**requirement**: Install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
 
 1. Login to your Google account with gcloud CLI : `gcloud auth application-default login`
 2. Uncomment the `dns` module for Google Cloud in your `main.tf`.
